@@ -32,19 +32,27 @@ header {
     
 }
 
-h1 {
+.title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 0em;
 }
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+    
+
 }
 
 .hero-text {
     color: #e5e7eb;
     font-size: 18px;
+    display: flex;
+    max-width: 685px;
 }
 
 .hero-button {
@@ -54,11 +62,30 @@ h1 {
     border-radius: 5px;
     font-size:16px;
     font-weight: bold;
-    padding: 8px 30px;
+    padding: 8px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    max-width: 120px;
 }
 
 .hero-button:hover {
     background-color: #1a458a;
+}
+
+.top-videogames {
+    height: 200px;
+    min-width: 0;
+}
+
+.hero-title-text-button {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+}
+
+.top-videogames {
+    
+    margin-left: 50px;
+    margin-top: 50px;
 }
