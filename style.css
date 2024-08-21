@@ -208,3 +208,13 @@ header {
     background-color: white;
     color: #3882f6;
 }
+
+.footer {
+    color: white;
+    font-size: 14px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
