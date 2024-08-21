@@ -23,13 +23,13 @@ header {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    
+
 }
 
 .nav-links {
     display: flex;
     gap: 10px;
-    
+
 }
 
 .title {
@@ -44,7 +44,7 @@ header {
     display: flex;
     padding-bottom: 100px;
     justify-content: center;
-    
+
 
 }
 
@@ -60,7 +60,7 @@ header {
     color: #f9faf8;
     border: none;
     border-radius: 5px;
-    font-size:16px;
+    font-size: 16px;
     font-weight: bold;
     padding: 8px 20px;
     cursor: pointer;
@@ -80,12 +80,12 @@ header {
 .hero-title-text-button {
     display: flex;
     flex-direction: column;
-    
+
     margin-top: 50px;
 }
 
 .top-videogames {
-    
+
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -94,14 +94,10 @@ header {
     color: #1f2937;
     font-size: 36px;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .information-images {
-    height: 200px;
-    
-    min-width: 0;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -110,4 +106,23 @@ header {
 .information-images img {
     border: 5px solid #3882f6;
     border-radius: 10px;
+    width: 200px;
+    height: auto;
+    min-width: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+
+}
+
+.text {
+    text-align: center;
+    color: #4b5563;
+    font-size: 16px;
 }
