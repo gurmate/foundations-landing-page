@@ -26,6 +26,10 @@ header {
 
 }
 
+header img {
+    max-width: 40px;
+}
+
 .nav-links {
     display: flex;
     gap: 10px;
