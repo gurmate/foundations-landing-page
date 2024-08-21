@@ -146,15 +146,56 @@ header {
     font-weight: lighter;
     font-style: italic;
     text-align: left;
-    width: 1000px;
+    max-width: 1000px;
     margin-bottom: 0rem;
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
-    width: 1000px;
+    min-width: 1000px;
     margin-top: 0rem;
     font-size: 22px;
     font-weight: 700;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.banner {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 30px 300px;
+}
+
+.banner-title {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner-text {
+    color:#e5e7ebc7;
+    font-size: 16px;
+}
+
+.banner-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 30px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.banner-button:hover {
+    background-color: white;
+    color: #3882f6;
 }
