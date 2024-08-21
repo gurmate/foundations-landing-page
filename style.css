@@ -89,3 +89,25 @@ header {
     margin-left: 50px;
     margin-top: 50px;
 }
+
+.information-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.information-images {
+    height: 200px;
+    
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.information-images img {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
